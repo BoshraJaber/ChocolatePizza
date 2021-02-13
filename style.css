@@ -68,3 +68,50 @@ body {
   color:gray;
   font-size: 10px;
 }
+/* styling the empty box to look like a line  */
+.empty-box {
+  height: 10px;
+  background-color: grey;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+/* Second section: the header  */
+h1 {
+  font-size:50px;
+  font-weight: bold;
+  margin-bottom:0px;
+
+}
+.post-date{
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: gray;
+  padding:0px;
+  margin:0px;
+}
+
+.choclateHeader{
+  float:left;
+
+}
+.print-icon{
+  float: right;
+  margin-right: 1px;
+  margin-bottom: 20px;
+  
+}
+.print-word{
+  float:right;
+  color: grey;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-top: 55px ;
+  
+}
+.print-img{
+  float:left;
+  padding: 4px;
+  margin-top: 60px ;
+}
+
