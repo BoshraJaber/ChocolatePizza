@@ -164,10 +164,76 @@ li{
   font-family: 'Patrick Hand', cursive;
 }
 
-.emptyBox-End{
-  margin-top: 35px;
-  height: 10px;
-  background-color:silver;
-  max-width: 1000px;
+
+/* Styling the footer  */
+
+.vanessa {
+  width: 75%;
+  font-size: 20px;
+  margin-top:40px;
+  float:left;
+}
+
+.van-img {
+  padding: 0px 0px 15px 0px;
+  float: left;
+  padding-right: 10px;
+}
+.van-name{
+  font-size:20px;
+  font-weight: bold;
+  margin-bottom:0px;
+}
+.vanessa-intro{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: gray;
+  padding:0px;
+  margin:0px;
+}
+.button {
+  float: right;
+  background-color: rgb(173, 24, 24);
+  width: 170px;
+  height: 60px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 50px;
+  width:20%;
+}
+
+/* styling the right reserved info  */
+
+h2{
+  display: flex; 
+  flex-direction: row;
+  width:100%;
+
+}
+
+.footerpicture{
+  border-radius: 50%; 
+}
+h2 { 
+  display: flex; 
+  flex-direction: row;
+  max-width: 1000px; 
   margin: 0px auto;
+} 
+
+h2:before, 
+h2:after { 
+  content: ""; 
+  flex: 1 1; 
+  border-bottom: 2px solid silver; 
+  margin: auto; 
+} 
+.right-reserved {
+  margin: 0px auto 0px auto;
+  text-align: center;
+  font-size: 15px;
+  color: gray;
 }
