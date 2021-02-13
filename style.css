@@ -71,7 +71,7 @@ body {
 /* styling the empty box to look like a line  */
 .empty-box {
   height: 10px;
-  background-color: grey;
+  background-color:silver;
   max-width: 1000px;
   margin: 0px auto;
 }
@@ -113,5 +113,9 @@ h1 {
   float:left;
   padding: 4px;
   margin-top: 60px ;
+}
+.chocoImg{
+  margin-top:15px;
+width: 1000px;
 }
 
