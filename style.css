@@ -1,0 +1,239 @@
+body {
+  background-color: white;
+}
+/* Styling the header bar  */
+.grid-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+  display: block;
+}
+
+/*-- our cleafix hack -- */
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  width: 16.66%;
+  padding: 12px;
+}
+
+.col-2 {
+  width: 33.33%;
+}
+.col-1 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 50%;
+}
+.social-media{
+  float: right;
+}
+.logo-div-left{
+  /* max-width: 380px; */
+  display: inline;
+  margin: auto;
+
+}
+
+.logo-div {
+  max-width: 380px;
+  }
+  .logo-heading {
+    float: right;
+    width: 85%;
+    /* margin:0%;
+    padding:0%; */
+    margin-bottom: 50px;
+ }
+ .logo-heading p {
+   margin:0%;
+ }
+.logo-img {
+    width: 15%;
+    float:left;
+}
+.nav-header{
+  font-family: 'Kaushan Script', cursive;
+  font-size: large;
+}
+.slang{
+  color:gray;
+  font-size: 10px;
+}
+/* styling the empty box to look like a line  */
+.empty-box {
+  height: 10px;
+  background-color:silver;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+/* Second section: the header  */
+h1 {
+  font-size:50px;
+  font-weight: bold;
+  margin-bottom:0px;
+
+}
+.post-date{
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: gray;
+  padding:0px;
+  margin:0px;
+}
+
+.choclateHeader{
+  float:left;
+
+}
+.print-icon{
+  float: right;
+  margin-right: 1px;
+  margin-bottom: 20px;
+  
+}
+.print-word{
+  float:right;
+  color: grey;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-top: 55px ;
+  
+}
+.print-img{
+  float:left;
+  padding: 4px;
+  margin-top: 60px ;
+}
+.chocoImg{
+  margin-top:15px;
+width: 1000px;
+}
+.recipe p{
+  font-size: 1em;
+  color: gray;
+  font-weight: lighter;
+}
+.recipe{
+  text-indent: 20px;
+  font-size: 18px;
+}
+
+
+.ingriedents  {
+  background-image: url("assets/list-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  object-fit: cover;
+  margin-top: 25px;
+  display: inline-block;
+  max-width:100%;
+  font-size: 20px;
+  color: #666350;
+  margin: 0px auto;
+  width:100%;
+  max-width: 1000px;
+  margin: 0px auto;
+  display: block;
+
+}
+.checkbox[type="checkbox"]{
+  background-color: gray;
+  width: 16px;
+  height: 16px;
+  padding: 0px 20px 0 20px;
+}
+
+ul{
+  list-style: none;
+  column-count: 2;
+  width:100%;
+  padding: 20px 80px 0px 140px;
+}
+li{
+  padding: 4px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+
+/* Styling the footer  */
+
+.vanessa {
+  width: 75%;
+  font-size: 20px;
+  margin-top:40px;
+  float:left;
+}
+
+.van-img {
+  padding: 0px 0px 15px 0px;
+  float: left;
+  padding-right: 10px;
+}
+.van-name{
+  font-size:20px;
+  font-weight: bold;
+  margin-bottom:0px;
+}
+.vanessa-intro{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: gray;
+  padding:0px;
+  margin:0px;
+}
+.button {
+  float: right;
+  background-color: rgb(173, 24, 24);
+  width: 170px;
+  height: 60px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 50px;
+  width:20%;
+}
+
+/* styling the right reserved info  */
+
+h2{
+  display: flex; 
+  flex-direction: row;
+  width:100%;
+
+}
+
+.footerpicture{
+  border-radius: 50%; 
+}
+h2 { 
+  display: flex; 
+  flex-direction: row;
+  max-width: 1000px; 
+  margin: 0px auto;
+} 
+
+h2:before, 
+h2:after { 
+  content: ""; 
+  flex: 1 1; 
+  border-bottom: 2px solid silver; 
+  margin: auto; 
+} 
+.right-reserved {
+  margin: 0px auto 0px auto;
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+}
