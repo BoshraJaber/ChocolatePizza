@@ -163,3 +163,11 @@ li{
   padding: 4px;
   font-family: 'Patrick Hand', cursive;
 }
+
+.emptyBox-End{
+  margin-top: 35px;
+  height: 10px;
+  background-color:silver;
+  max-width: 1000px;
+  margin: 0px auto;
+}
